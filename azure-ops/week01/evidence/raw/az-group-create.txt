@@ -1,0 +1,4 @@
+$ az group show -n rg-lab-week01 -o table
+Location       Name
+-------------  -------------
+southeastasia  rg-lab-week01
