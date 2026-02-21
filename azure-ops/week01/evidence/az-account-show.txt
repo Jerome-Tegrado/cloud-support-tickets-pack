@@ -1,0 +1,4 @@
+$ az account show -o table
+EnvironmentName    HomeTenantId                          IsDefault    Name                  State    TenantId
+-----------------  ------------------------------------  -----------  --------------------  -------  ------------------------------------
+AzureCloud         <REDACTED-TENANT-ID>                  True         Azure subscription 1  Enabled  <REDACTED-TENANT-ID>
