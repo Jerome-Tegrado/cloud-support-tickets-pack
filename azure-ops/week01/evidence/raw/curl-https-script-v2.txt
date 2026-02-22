@@ -1,0 +1,6 @@
+$ ./https_check.sh https://example.com
+[2026-02-22 04:20:10] Starting HTTPS check
+Target: https://example.com
+HTTP_CODE=200 DNS=0.014172s CONNECT=0.031158s TLS=0.069741s TTFB=0.088080s TOTAL=0.088145s
+STATUS=PASS
+[2026-02-22 04:20:10] Check finished (curl_exit_code=0)
