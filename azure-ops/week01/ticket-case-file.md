@@ -42,5 +42,16 @@ I did not apply any changes since the core service check (HTTPS) was already suc
 ## Decision Notes
 I prioritized safe, no-change verification first (DNS → HTTPS/TLS → optional reachability tools). Since HTTPS returned a successful response, I did not escalate this as a real outage based only on ping/trace failures.
 
+## Communication Updates
+
+### First Update
+Thank you for reporting this issue. I am currently investigating the website access problem and performing initial checks (DNS resolution and HTTPS reachability) from the test environment. I will provide the next update after the initial diagnostics are completed.
+
+### Next Update
+Initial checks have been completed. DNS resolution is successful from the test environment (both default resolver and 1.1.1.1), so the issue does not currently appear to be DNS-related. I am continuing basic reachability/HTTPS checks to isolate whether the problem is at the network, TLS, or application layer.
+
+### Resolution Update
+Based on the completed checks, DNS resolution is working normally and the issue appears to be beyond the DNS layer (service/HTTPS reachability). At this time, the site is still not consistently reachable from the test checks, so this case is being treated as an investigation/escalation scenario. Please retry access after some time while monitoring continues, and we will provide another update if the status changes.
+
 ## Cleanup Proof (end of week)
 At the end of Week 1, I will delete `rg-lab-week01` and capture proof that it no longer exists.
