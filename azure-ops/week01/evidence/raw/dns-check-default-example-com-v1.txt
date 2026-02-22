@@ -1,0 +1,22 @@
+$ ./dns_check.sh example.com
+=== DNS CHECK START ===
+timestamp_utc=2026-02-22T05:51:10Z
+domain=example.com
+resolver=system-default
+tool=nslookup
+mode=default-resolver
+Server:         168.63.129.16
+Address:        168.63.129.16#53
+
+Non-authoritative answer:
+Name:   example.com
+Address: 104.18.26.120
+Name:   example.com
+Address: 104.18.27.120
+Name:   example.com
+Address: 2606:4700::6812:1b78
+Name:   example.com
+Address: 2606:4700::6812:1a78
+nslookup_exit_code=0
+timestamp_utc_end=2026-02-22T05:51:10Z
+=== DNS CHECK END ===

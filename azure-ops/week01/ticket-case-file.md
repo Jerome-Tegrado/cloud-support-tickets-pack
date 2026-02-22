@@ -1,5 +1,7 @@
 # Week 01 — Website Unreachable Triage (Lab)
 
+# Ticket Case File
+
 ## Customer symptom
 A user reported that the website wouldn’t load / seemed unreachable.
 
