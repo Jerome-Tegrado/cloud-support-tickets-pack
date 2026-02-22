@@ -53,5 +53,9 @@ Initial checks have been completed. DNS resolution is successful from the test e
 ### Resolution Update
 Based on the completed checks, DNS resolution is working normally and the issue appears to be beyond the DNS layer (service/HTTPS reachability). At this time, the site is still not consistently reachable from the test checks, so this case is being treated as an investigation/escalation scenario. Please retry access after some time while monitoring continues, and we will provide another update if the status changes.
 
+## Proof Artifact
+- Draw.io triage diagram (client → DNS resolver → web server / HTTPS endpoint): `evidence/week01-website-unreachable-triage.png`
+- Source file (editable): `evidence/week01-website-unreachable-triage.drawio`
+
 ## Cleanup Proof (end of week)
 At the end of Week 1, I will delete `rg-lab-week01` and capture proof that it no longer exists.
