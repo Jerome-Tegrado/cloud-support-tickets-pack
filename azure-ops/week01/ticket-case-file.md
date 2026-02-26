@@ -58,4 +58,4 @@ Based on the completed checks in this simulated lab case, DNS resolution worked 
 - Source file (editable): `evidence/week01-website-unreachable-triage.drawio.png`
 
 ## Cleanup Proof (end of week)
-At the end of Week 1, I will delete `rg-lab-week01` and capture proof that it no longer exists.
+azure-ops/week01/cleanup-proof/rg-lab-week01-delete.txt
