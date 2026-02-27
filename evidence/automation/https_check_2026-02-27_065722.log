@@ -1,0 +1,5 @@
+[2026-02-27 06:57:22] Starting HTTPS check
+Target: https://example.com
+HTTP_CODE=200 DNS=0.002252s CONNECT=0.006007s TLS=0.039711s TTFB=0.058889s TOTAL=0.058945s
+STATUS=PASS
+[2026-02-27 06:57:22] Check finished (curl_exit_code=0)
